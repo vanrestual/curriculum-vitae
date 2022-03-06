@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply flex min-h-screen w-full items-center bg-gray-100 print:h-[297mm] print:w-[210mm];
+  }
+  header,
+  footer {
+    @apply flex w-full shrink-0 flex-col;
+  }
+  main {
+    @apply w-full grow;
+  }
+  #__next {
+    @apply flex min-h-screen w-full flex-col items-center rounded border border-gray-300 bg-white shadow;
+    @apply mx-auto min-h-[297mm] max-w-[210mm] py-8 md:my-[10mm] md:py-10 lg:py-[10mm];
+    @apply print:m-0 print:w-full print:break-after-page print:rounded-none print:border-0 print:border-transparent print:p-[10mm] print:shadow-none;
+  }
+  @page {
+    size: A4 portrait;
+    margin: 0;
+  }
+}
