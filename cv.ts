@@ -13,13 +13,13 @@ const cv = {
       label: 'vanrestual@gmail.com',
     },
     {
-      href: 'https://api.whatsapp.com/send?phone=+6281234567890',
+      href: 'https://api.whatsapp.com/send?phone=+6289515756333',
       icon: WhatsappIcon,
-      label: '+62-8123-4567-890',
+      label: '+62-8951-5756-333',
     }
   ],
   description: 'Profesional Front-end Developer with more than four years of experience in the application development process. Have a solid foundation of object-oriented programming. Demonstrated ability to learn new stack technologies quickly. Collaborative team member who experiences dynamic team environment that utilizes agile methodology approach and able to work well under pressure.',
-  infomration: [
+  information: [
     {
       href: 'https://goo.gl/maps/AQJmLd5hsPuyNsLK6',
       icon: MapMarkerIcon,
@@ -44,9 +44,42 @@ const cv = {
       },
       {
         title: 'Tools, Development and Operation',
-        items: ['Coreldraw', 'Figma', 'Adobe XD', 'Photoshop', 'GIT', 'Apache', 'NGINX', 'Docker', 'AWS', 'DigitalOcean', 'Vercel']
-      },
+        items: ['Figma', 'Adobe XD', 'GIT', 'Apache', 'NGINX', 'Docker', 'AWS', 'Digital Ocean']
+      }
     ]
+  },
+  workExperience: {
+    title: 'Work Experience',
+    works: [
+      {
+        profession: 'Front-end Developer',
+        company: 'PT. Aktif Teknologi Indonesia',
+        location: 'Jember, East Java, Indonesia',
+        lengthOfWork: 'November 2018 – October 2019',
+        descriptions: [
+          'Create an interesting website or app view.',
+          'Ensuring the website or application created can run quickly and responsively.',
+          'Create code that can be used again for future purposes.'
+        ]
+      },
+      {
+        profession: 'IT Support',
+        company: 'PT. Bumi Suksesindo',
+        location: 'Bondowoso, East Java, Indonesia',
+        lengthOfWork: 'June 2013 – April 2015',
+        descriptions: [
+          'Responsible for checking computers, starting from the operating system to applications.',
+          'Ensuring hardware and software can run properly.'
+        ]
+      }
+    ]
+  },
+  projects: {
+    title: 'Projects',
+  },
+  education: {
+    title: 'Education',
+    lengthOfEducation: 'September 2015 – August 2019',
   }
 }
 
