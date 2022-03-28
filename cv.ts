@@ -52,6 +52,15 @@ const cv = {
     title: 'Work Experience',
     works: [
       {
+        profession: 'Front-end Developer (Freelancing)',
+        company: 'nikojulius.com, contentacademy.id, klikdigital.co.id and many more',
+        location: 'Banyuwangi, East Java, Indonesia',
+        lengthOfWork: 'November 2019 – December 2021',
+        descriptions: [
+          'Create a membership web app theme from amember.com using BootstrapCSS.',
+        ]
+      },
+      {
         profession: 'Front-end Developer',
         company: 'PT. Aktif Teknologi Indonesia',
         location: 'Jember, East Java, Indonesia',
@@ -88,7 +97,6 @@ const cv = {
     title: 'Additional Information',
     items: [
       'Speaks native Indonesian and low intermediate English.',
-      'During the COVID-19 pandemic until the end of 2021, I worked freelance as a front-end developer and handled certain websites with domains such as nikojulius.com, contentacademy.id, klikdigital.co.id, priangga.co.id, and many more.',
       'Spends spare time to learn latest full-stack technologies.',
       'I am referred by my friend, <span class="font-bold tracking-wide underline">Ilham Fadhil</span>, a Junior Programmer in Mitrais to apply to Mitrais as a ReactJS Developer.'
     ],

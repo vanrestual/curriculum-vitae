@@ -17,7 +17,7 @@ export default function WorkExperience({ title, works }: WorkExperienceProps) {
   return (
     <section>
       <h3 className="text-base tracking-wide font-bold text-blue-500 uppercase text-center md:text-left print:text-left mb-2 sm:mb-3 md:mb-2">{title}</h3>
-      <ul className="space-y-3 mb-3 md:mb-1.5 print:mb-1.5">
+      <ul className="space-y-3">
         {works.map((item, index) => (
           <li key={index}>
             <div className="flex w-full flex-col sm:flex-row print:flex-row justify-between space-y-1 sm:space-y-0 print:space-y-0">
@@ -36,7 +36,7 @@ export default function WorkExperience({ title, works }: WorkExperienceProps) {
                 </span>
               </div>
             </div>
-            <div className="mt-3 sm:mt-px flex flex-col print:mt-px">
+            <div className="mt-3 sm:mt-0 flex flex-col print:mt-0">
               {item.descriptions.map((description, index) => (
                 <div key={index} className="text-gray-700 flex space-x-2">
                   <CheckIcon className="h-4 w-4 shrink-0" />
