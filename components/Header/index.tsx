@@ -4,7 +4,7 @@ import Description from './Description';
 import Information from './Information';
 
 const Header: FC<HTMLAttributes<HTMLElement>> = ({ children, ...props }) => {
-  return <header {...props}>{children}</header>
+  return <header className="shrink-0" {...props}>{children}</header>
 }
 
 export default Object.assign(Header, {

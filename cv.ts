@@ -36,15 +36,15 @@ const cv = {
     skill: [
       {
         title: 'Front-end Development',
-        items: ['HTML', 'CSS', 'Javascript', 'Typescript', 'SASS', 'Bootstrap', 'JQuery', 'TailwindCSS', 'AlpineJS', 'CSS-in-JS', 'ReactJS', 'GatsbyJS', 'NextJS', 'React Native']
+        items: ['HTML', 'CSS', 'Javascript', 'SASS', 'BootstrapCSS', 'JQuery', 'TailwindCSS', 'AlpineJS', 'CSS-in-JS', 'ReactJS', 'GatsbyJS', 'NextJS', 'React Native']
       },
       {
         title: 'Back-end Development',
-        items: ['Java', 'PHP', 'Code Igniter', 'Laravel', 'NodeJS', 'ExpressJS', 'MySQL']
+        items: ['Typescript', 'Java', 'PHP', 'Code Igniter', 'Laravel', 'NodeJS', 'ExpressJS', 'MySQL']
       },
       {
         title: 'Tools, Development and Operation',
-        items: ['Figma', 'Adobe XD', 'GIT', 'Apache', 'NGINX', 'Docker', 'AWS', 'Digital Ocean']
+        items: ['Figma', 'Adobe XD', 'GIT', 'Apache', 'NGINX', 'CPanel', 'Docker', 'AWS', 'Digital Ocean']
       }
     ]
   },
@@ -58,8 +58,8 @@ const cv = {
         lengthOfWork: 'November 2018 – October 2019',
         descriptions: [
           'Create an interesting website or app view.',
-          'Ensuring the website or application created can run quickly and responsively.',
-          'Create code that can be used again for future purposes.'
+          'Ensure the developed web application to be fast, lightweight and responsive.',
+          'Create reusable and readable codes for future development.'
         ]
       },
       {
@@ -68,18 +68,32 @@ const cv = {
         location: 'Bondowoso, East Java, Indonesia',
         lengthOfWork: 'June 2013 – April 2015',
         descriptions: [
-          'Responsible for checking computers, starting from the operating system to applications.',
-          'Ensuring hardware and software can run properly.'
+          'Responsible for accurately monitoring and documenting company\'s computers performance.',
+          'Ensure the hardware and software being used by the company is maintained.'
         ]
       }
     ]
   },
-  projects: {
-    title: 'Projects',
-  },
   education: {
     title: 'Education',
+    degree: 'Bachelor of Informatics Engineering',
+    university: 'University of Muhammadiyah Jember',
     lengthOfEducation: 'September 2015 – August 2019',
+    items: [
+      'Coursework: Object Oriented Programming, Relational Database, Algorithms and Data Structure.',
+      'Tech Stack: Java, HTML, CSS, Javascript, PHP, MySQL, Laravel, and Android Studio.'
+    ]
+  },
+  footer: {
+    title: 'Additional Information',
+    items: [
+      'Speaks native Indonesian and low intermediate English.',
+      'During the COVID-19 pandemic until the end of 2021, I worked freelance as a front-end developer and handled certain websites with domains such as nikojulius.com, contentacademy.id, klikdigital.co.id, priangga.co.id, and many more.',
+      'Spends spare time to learn latest full-stack technologies.',
+      'I am referred by my friend, <span class="font-bold tracking-wide underline">Ilham Fadhil</span>, a Junior Programmer in Mitrais to apply to Mitrais as a ReactJS Developer.'
+    ],
+    link: 'https://curriculum-vitae-liart.vercel.app/',
+    labelLink: 'View Online'
   }
 }
 

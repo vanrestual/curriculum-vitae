@@ -5,8 +5,9 @@ import Container from '../components/Container';
 import Content from '../components/Content';
 import Skills from '../components/Skills';
 import WorkExperience from '../components/WorkExperience';
-import cv from '../cv';
 import Education from '../components/Education';
+import Footer from '../components/Footer';
+import cv from '../cv';
 
 const Home: NextPage = () => {
   return (
@@ -25,16 +26,20 @@ const Home: NextPage = () => {
       <Content>
         <Skills title={cv.skills.title} skills={cv.skills.skill} />
         <WorkExperience title={cv.workExperience.title} works={cv.workExperience.works} />
-        <Education title={cv.education.title} />
-        {/* <section>
-            <h3 className="text-lg tracking-wide font-bold text-blue-500 uppercase text-center md:text-left print:text-left mb-3">Additional Information About Me</h3>
-            <ul>
-              <li className="text-xs text-gray-500 leading-5">Speaks fluent English and native Indonesian.</li>
-              <li className="text-xs text-gray-500 leading-5">Spends spare time to learn new web technologies.</li>
-            </ul>
-          </section> */}
+        <Education
+          title={cv.education.title}
+          degree={cv.education.degree}
+          university={cv.education.university}
+          lengthOfEducation={cv.education.lengthOfEducation}
+          items={cv.education.items}
+        />
       </Content>
-      <footer></footer>
+      <Footer
+        title={cv.footer.title}
+        items={cv.footer.items}
+        link={cv.footer.link}
+        labelLink={cv.footer.labelLink}
+      />
     </>
   )
 }
