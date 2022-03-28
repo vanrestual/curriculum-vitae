@@ -3,7 +3,7 @@ import GithubIcon from './components/icons/Github';
 import MapMarkerIcon from './components/icons/MapMarker';
 import WhatsappIcon from './components/icons/Whatsapp';
 
-const cv = {
+const resume = {
   name: 'Ivan Restu Alfiansyah',
   profession: 'Front-end Developer',
   contact: [
@@ -100,9 +100,9 @@ const cv = {
       'Spends spare time to learn latest full-stack technologies.',
       'I am referred by my friend, <span class="font-bold tracking-wide underline">Ilham Fadhil</span>, a Junior Programmer in Mitrais to apply to Mitrais as a ReactJS Developer.'
     ],
-    link: 'https://curriculum-vitae-liart.vercel.app/',
+    link: 'https://resume-zeta-seven.vercel.app/',
     labelLink: 'View Online'
   }
 }
 
-export default cv;
+export default resume;

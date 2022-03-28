@@ -7,38 +7,38 @@ import Skills from '../components/Skills';
 import WorkExperience from '../components/WorkExperience';
 import Education from '../components/Education';
 import Footer from '../components/Footer';
-import cv from '../cv';
+import resume from '../resume';
 
 const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Ivan Restu Alfiansyah | Curriculum Vitae</title>
+        <title>Ivan Restu Alfiansyah | Resume</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header>
         <Container>
-          <Header.Identity name={cv.name} profession={cv.profession} contact={cv.contact} />
-          <Header.Description description={cv.description} />
+          <Header.Identity name={resume.name} profession={resume.profession} contact={resume.contact} />
+          <Header.Description description={resume.description} />
         </Container>
-        <Header.Information information={cv.information} />
+        <Header.Information information={resume.information} />
       </Header>
       <Content>
-        <Skills title={cv.skills.title} skills={cv.skills.skill} />
-        <WorkExperience title={cv.workExperience.title} works={cv.workExperience.works} />
+        <Skills title={resume.skills.title} skills={resume.skills.skill} />
+        <WorkExperience title={resume.workExperience.title} works={resume.workExperience.works} />
         <Education
-          title={cv.education.title}
-          degree={cv.education.degree}
-          university={cv.education.university}
-          lengthOfEducation={cv.education.lengthOfEducation}
-          items={cv.education.items}
+          title={resume.education.title}
+          degree={resume.education.degree}
+          university={resume.education.university}
+          lengthOfEducation={resume.education.lengthOfEducation}
+          items={resume.education.items}
         />
       </Content>
       <Footer
-        title={cv.footer.title}
-        items={cv.footer.items}
-        link={cv.footer.link}
-        labelLink={cv.footer.labelLink}
+        title={resume.footer.title}
+        items={resume.footer.items}
+        link={resume.footer.link}
+        labelLink={resume.footer.labelLink}
       />
     </>
   )
