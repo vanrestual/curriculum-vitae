@@ -14,7 +14,9 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>Ivan Restu Alfiansyah | Resume</title>
+        <meta name="description" content="Profesional Front-end Developer with more than four years of experience in the application development process"/>
         <link rel="icon" href="/favicon.ico" />
+        <link rel='canonical' href="https://resume-zeta-seven.vercel.app/" />
       </Head>
       <Header>
         <Container>

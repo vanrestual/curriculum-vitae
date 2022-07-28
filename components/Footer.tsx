@@ -17,7 +17,7 @@ export default function Footer({ title, items, link, labelLink }: FooterProps) {
         <hr className="border-gray-200 grow" />
       </div>
       <Container>
-        <ul className="my-2 flex flex-col">
+        <ul className="my-3.5 flex flex-col">
           {items.map((item, index) => (
             <li key={index} className="text-gray-700 flex space-x-2">
               <CheckIcon className="h-4 w-4 shrink-0" />

@@ -98,7 +98,6 @@ const resume = {
     items: [
       'Speaks native Indonesian and low intermediate English.',
       'Spends spare time to learn latest full-stack technologies.',
-      'I am referred by my friend, <span class="font-bold tracking-wide underline">Ilham Fadhil</span>, a Junior Programmer in Mitrais to apply to Mitrais as a ReactJS Developer.'
     ],
     link: 'https://resume-zeta-seven.vercel.app/',
     labelLink: 'View Online'
